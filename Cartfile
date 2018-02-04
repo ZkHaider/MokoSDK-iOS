@@ -1,0 +1,6 @@
+## Passive Service
+github "audaciouscode/PassiveDataKit-iOS" "master"
+
+## Permissions
+github "lemberg/ios-permissions-service"
+

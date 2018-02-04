@@ -1,0 +1,1742 @@
+BCSymbolMap Version: 2.0
+-[DTMColorProvider colorForValue:red:green:blue:alpha:]
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMColorProvider.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS
+-[DTMDiffColorProvider colorForValue:red:green:blue:alpha:]
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMDiffColorProvider.m
+-[DTMHeatmapRenderer initWithOverlay:]
+-[DTMHeatmapRenderer dealloc]
+-[DTMHeatmapRenderer populateScaleMatrix]
+-[DTMHeatmapRenderer drawMapRect:zoomScale:inContext:]
+-[DTMHeatmapRenderer scaleMatrix]
+_OBJC_IVAR_$_DTMHeatmapRenderer._scaleMatrix
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMHeatmapRenderer.m
++[PDKPedometerGenerator sharedInstance]
+___39+[PDKPedometerGenerator sharedInstance]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[PDKPedometerGenerator allocWithZone:]
+-[PDKPedometerGenerator init]
+-[PDKPedometerGenerator databasePath]
+-[PDKPedometerGenerator openDatabase]
+-[PDKPedometerGenerator addListener:options:]
+___45-[PDKPedometerGenerator addListener:options:]_block_invoke
+___copy_helper_block_.135
+___destroy_helper_block_.136
+-[PDKPedometerGenerator removeListener:]
+-[PDKPedometerGenerator displayError:]
+-[PDKPedometerGenerator generatorId]
+-[PDKPedometerGenerator stepsBetweenStart:end:]
+-[PDKPedometerGenerator listeners]
+-[PDKPedometerGenerator setListeners:]
+-[PDKPedometerGenerator lastOptions]
+-[PDKPedometerGenerator setLastOptions:]
+-[PDKPedometerGenerator pedometer]
+-[PDKPedometerGenerator setPedometer:]
+-[PDKPedometerGenerator database]
+-[PDKPedometerGenerator setDatabase:]
+-[PDKPedometerGenerator .cxx_destruct]
+_sharedObject
+_sharedInstance._singletonPredicate
+___block_descriptor_tmp
+___block_descriptor_tmp.138
+_OBJC_IVAR_$_PDKPedometerGenerator._listeners
+_OBJC_IVAR_$_PDKPedometerGenerator._lastOptions
+_OBJC_IVAR_$_PDKPedometerGenerator._pedometer
+_OBJC_IVAR_$_PDKPedometerGenerator._database
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKPedometerGenerator.m
+__destroy_helper_block_
+__copy_helper_block_
+__45-[PDKPedometerGenerator addListener:options:]_block_invoke
+__39+[PDKPedometerGenerator sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/dispatch/once.h
++[PDKEventsGenerator sharedInstance]
+___36+[PDKEventsGenerator sharedInstance]_block_invoke
++[PDKEventsGenerator allocWithZone:]
+-[PDKEventsGenerator visualizationForSize:]
+-[PDKEventsGenerator tableView:cellForRowAtIndexPath:]
+-[PDKEventsGenerator tableView:numberOfRowsInSection:]
+-[PDKEventsGenerator logEvent:properties:]
+___42-[PDKEventsGenerator logEvent:properties:]_block_invoke
++[PDKEventsGenerator detailsController]
+-[PDKEventsGenerator generatorId]
+___block_descriptor_tmp.79
+___block_literal_global
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKEventsGenerator.m
+__42-[PDKEventsGenerator logEvent:properties:]_block_invoke
+__36+[PDKEventsGenerator sharedInstance]_block_invoke
+-[UIProgressView(AFNetworking) af_uploadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setUploadProgressAnimated:]
+-[UIProgressView(AFNetworking) af_downloadProgressAnimated]
+-[UIProgressView(AFNetworking) af_setDownloadProgressAnimated:]
+-[UIProgressView(AFNetworking) setProgressWithUploadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) setProgressWithDownloadProgressOfTask:animated:]
+-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.30
+___copy_helper_block_.31
+___destroy_helper_block_.32
+_AFTaskCountOfBytesSentContext
+_AFTaskCountOfBytesReceivedContext
+___block_descriptor_tmp.33
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIProgressView+PDKAFNetworking.m
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke.30
+__79-[UIProgressView(AFNetworking) observeValueForKeyPath:ofObject:change:context:]_block_invoke
+-[PDKLocationAnnotation initWithLocation:forDate:]
+-[PDKLocationAnnotation title]
+-[PDKLocationAnnotation coordinate]
+-[PDKLocationAnnotation setCoordinate:]
+-[PDKLocationAnnotation date]
+-[PDKLocationAnnotation setDate:]
+-[PDKLocationAnnotation .cxx_destruct]
+_OBJC_IVAR_$_PDKLocationAnnotation._coordinate
+_OBJC_IVAR_$_PDKLocationAnnotation._date
+l_OBJC_PROTOCOL_$_MKAnnotation
+l_OBJC_LABEL_PROTOCOL_$_MKAnnotation
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKLocationAnnotation.m
+-[UIWebView(_PDKAFNetworking) af_URLSessionTask]
+-[UIWebView(_PDKAFNetworking) af_setURLSessionTask:]
+-[UIWebView(PDKAFNetworking) sessionManager]
+___44-[UIWebView(PDKAFNetworking) sessionManager]_block_invoke
+-[UIWebView(PDKAFNetworking) setSessionManager:]
+-[UIWebView(PDKAFNetworking) responseSerializer]
+___48-[UIWebView(PDKAFNetworking) responseSerializer]_block_invoke
+-[UIWebView(PDKAFNetworking) setResponseSerializer:]
+-[UIWebView(PDKAFNetworking) loadRequest:progress:success:failure:]
+___67-[UIWebView(PDKAFNetworking) loadRequest:progress:success:failure:]_block_invoke
+-[UIWebView(PDKAFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]
+___93-[UIWebView(PDKAFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+___copy_helper_block_.59
+___destroy_helper_block_.60
+___93-[UIWebView(PDKAFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+___copy_helper_block_.64
+___destroy_helper_block_.65
+_sessionManager._af_defaultHTTPSessionManager
+_sessionManager.onceToken
+_responseSerializer._af_defaultResponseSerializer
+_responseSerializer.onceToken
+___block_descriptor_tmp.21
+___block_literal_global.22
+___block_descriptor_tmp.62
+___block_descriptor_tmp.67
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIWebView+PDKAFNetworking.m
+__93-[UIWebView(PDKAFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke.63
+__93-[UIWebView(PDKAFNetworking) loadRequest:MIMEType:textEncodingName:progress:success:failure:]_block_invoke
+__67-[UIWebView(PDKAFNetworking) loadRequest:progress:success:failure:]_block_invoke
+__48-[UIWebView(PDKAFNetworking) responseSerializer]_block_invoke
+__44-[UIWebView(PDKAFNetworking) sessionManager]_block_invoke
+-[UIImageView(_PDKPDKAFNetworking) af_activeImageDownloadReceipt]
+-[UIImageView(_PDKPDKAFNetworking) af_setActiveImageDownloadReceipt:]
++[UIImageView(PDKAFNetworking) sharedImageDownloader]
++[UIImageView(PDKAFNetworking) setSharedImageDownloader:]
+-[UIImageView(PDKAFNetworking) setImageWithURL:]
+-[UIImageView(PDKAFNetworking) setImageWithURL:placeholderImage:]
+-[UIImageView(PDKAFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]
+___88-[UIImageView(PDKAFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
+___88-[UIImageView(PDKAFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+___copy_helper_block_.44
+___destroy_helper_block_.45
+-[UIImageView(PDKAFNetworking) cancelImageDownloadTask]
+-[UIImageView(PDKAFNetworking) clearActiveDownloadInformation]
+-[UIImageView(PDKAFNetworking) isActiveTaskURLEqualToURLRequest:]
+___block_descriptor_tmp.47
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIImageView+PDKAFNetworking.m
+__88-[UIImageView(PDKAFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke.43
+__88-[UIImageView(PDKAFNetworking) setImageWithURLRequest:placeholderImage:success:failure:]_block_invoke
++[PDKAFSecurityPolicy certificatesInBundle:]
++[PDKAFSecurityPolicy defaultPinnedCertificates]
+___48+[PDKAFSecurityPolicy defaultPinnedCertificates]_block_invoke
++[PDKAFSecurityPolicy defaultPolicy]
++[PDKAFSecurityPolicy policyWithPinningMode:]
++[PDKAFSecurityPolicy policyWithPinningMode:withPinnedCertificates:]
+-[PDKAFSecurityPolicy init]
+-[PDKAFSecurityPolicy setPinnedCertificates:]
+-[PDKAFSecurityPolicy evaluateServerTrust:forDomain:]
++[PDKAFSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]
++[PDKAFSecurityPolicy supportsSecureCoding]
+-[PDKAFSecurityPolicy initWithCoder:]
+-[PDKAFSecurityPolicy encodeWithCoder:]
+-[PDKAFSecurityPolicy copyWithZone:]
+-[PDKAFSecurityPolicy SSLPinningMode]
+-[PDKAFSecurityPolicy setSSLPinningMode:]
+-[PDKAFSecurityPolicy pinnedCertificates]
+-[PDKAFSecurityPolicy allowInvalidCertificates]
+-[PDKAFSecurityPolicy setAllowInvalidCertificates:]
+-[PDKAFSecurityPolicy validatesDomainName]
+-[PDKAFSecurityPolicy setValidatesDomainName:]
+-[PDKAFSecurityPolicy pinnedPublicKeys]
+-[PDKAFSecurityPolicy setPinnedPublicKeys:]
+-[PDKAFSecurityPolicy .cxx_destruct]
+_defaultPinnedCertificates._defaultPinnedCertificates
+_defaultPinnedCertificates.onceToken
+_OBJC_IVAR_$_PDKAFSecurityPolicy._pinnedCertificates
+_OBJC_IVAR_$_PDKAFSecurityPolicy._SSLPinningMode
+_OBJC_IVAR_$_PDKAFSecurityPolicy._allowInvalidCertificates
+_OBJC_IVAR_$_PDKAFSecurityPolicy._validatesDomainName
+_OBJC_IVAR_$_PDKAFSecurityPolicy._pinnedPublicKeys
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFSecurityPolicy.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFSecurityPolicy.h
+AFSecKeyIsEqualToKey
+AFPublicKeyTrustChainForServerTrust
+AFCertificateTrustChainForServerTrust
+AFServerTrustIsValid
+AFPublicKeyForCertificate
+__48+[PDKAFSecurityPolicy defaultPinnedCertificates]_block_invoke
+-[UIButton(_PDKAFNetworking) af_imageDownloadReceiptForState:]
+-[UIButton(_PDKAFNetworking) af_setImageDownloadReceipt:forState:]
+-[UIButton(_PDKAFNetworking) af_backgroundImageDownloadReceiptForState:]
+-[UIButton(_PDKAFNetworking) af_setBackgroundImageDownloadReceipt:forState:]
++[UIButton(PDKAFNetworking) sharedImageDownloader]
++[UIButton(PDKAFNetworking) setSharedImageDownloader:]
+-[UIButton(PDKAFNetworking) setImageForState:withURL:]
+-[UIButton(PDKAFNetworking) setImageForState:withURL:placeholderImage:]
+-[UIButton(PDKAFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]
+___94-[UIButton(PDKAFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___94-[UIButton(PDKAFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+___copy_helper_block_.42
+___destroy_helper_block_.43
+-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURL:]
+-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURL:placeholderImage:]
+-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]
+___104-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+___104-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+-[UIButton(PDKAFNetworking) cancelImageDownloadTaskForState:]
+-[UIButton(PDKAFNetworking) cancelBackgroundImageDownloadTaskForState:]
+-[UIButton(PDKAFNetworking) isActiveTaskURLEqualToURLRequest:forState:]
+-[UIButton(PDKAFNetworking) isActiveBackgroundTaskURLEqualToURLRequest:forState:]
+___block_descriptor_tmp.45
+___block_descriptor_tmp.66
+_PDKAFImageDownloadReceiptHighlighted
+_PDKAFImageDownloadReceiptSelected
+_PDKAFImageDownloadReceiptDisabled
+_PDKAFImageDownloadReceiptNormal
+_PDKAFBackgroundImageDownloadReceiptHighlighted
+_PDKAFBackgroundImageDownloadReceiptSelected
+_PDKAFBackgroundImageDownloadReceiptDisabled
+_PDKAFBackgroundImageDownloadReceiptNormal
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIButton+PDKAFNetworking.m
+__104-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.63
+__104-[UIButton(PDKAFNetworking) setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+__94-[UIButton(PDKAFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke.41
+__94-[UIButton(PDKAFNetworking) setImageForState:withURLRequest:placeholderImage:success:failure:]_block_invoke
+af_backgroundImageDownloadReceiptKeyForState
+af_imageDownloadReceiptKeyForState
+-[DTMDiffHeatmap init]
+-[DTMDiffHeatmap setBeforeData:afterData:]
+-[DTMDiffHeatmap maxValue]
+-[DTMDiffHeatmap setMaxValue:]
+-[DTMDiffHeatmap pointsWithHeat]
+-[DTMDiffHeatmap setPointsWithHeat:]
+-[DTMDiffHeatmap zoomedOutMax]
+-[DTMDiffHeatmap setZoomedOutMax:]
+-[DTMDiffHeatmap center]
+-[DTMDiffHeatmap setCenter:]
+-[DTMDiffHeatmap boundingRect]
+-[DTMDiffHeatmap setBoundingRect:]
+-[DTMDiffHeatmap .cxx_destruct]
+_OBJC_IVAR_$_DTMDiffHeatmap.maxValue
+_OBJC_IVAR_$_DTMDiffHeatmap._pointsWithHeat
+_OBJC_IVAR_$_DTMDiffHeatmap.zoomedOutMax
+_OBJC_IVAR_$_DTMDiffHeatmap.center
+_OBJC_IVAR_$_DTMDiffHeatmap.boundingRect
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMDiffHeatmap.m
++[PDKLocationGenerator sharedInstance]
+___38+[PDKLocationGenerator sharedInstance]_block_invoke
++[PDKLocationGenerator allocWithZone:]
+-[PDKLocationGenerator init]
+-[PDKLocationGenerator refresh:]
+-[PDKLocationGenerator databasePath]
+-[PDKLocationGenerator openDatabase]
+-[PDKLocationGenerator observeValueForKeyPath:ofObject:change:context:]
+-[PDKLocationGenerator removeListener:]
+-[PDKLocationGenerator updateOptions:]
+-[PDKLocationGenerator addListener:options:]
+-[PDKLocationGenerator locationManager:didUpdateLocations:]
+-[PDKLocationGenerator locationManager:didFailWithError:]
+-[PDKLocationGenerator locationManager:didChangeAuthorizationStatus:]
++[PDKLocationGenerator title]
++[PDKLocationGenerator detailsController]
+-[PDKLocationGenerator visualizationForSize:]
+-[PDKLocationGenerator mapView:rendererForOverlay:]
+-[PDKLocationGenerator generatorId]
+-[PDKLocationGenerator lastKnownLocation]
+-[PDKLocationGenerator listeners]
+-[PDKLocationGenerator setListeners:]
+-[PDKLocationGenerator locationManager]
+-[PDKLocationGenerator setLocationManager:]
+-[PDKLocationGenerator lastOptions]
+-[PDKLocationGenerator setLastOptions:]
+-[PDKLocationGenerator mode]
+-[PDKLocationGenerator setMode:]
+-[PDKLocationGenerator accessDeniedBlock]
+-[PDKLocationGenerator setAccessDeniedBlock:]
+-[PDKLocationGenerator database]
+-[PDKLocationGenerator setDatabase:]
+-[PDKLocationGenerator .cxx_destruct]
+_OBJC_IVAR_$_PDKLocationGenerator._listeners
+_OBJC_IVAR_$_PDKLocationGenerator._locationManager
+_OBJC_IVAR_$_PDKLocationGenerator._lastOptions
+_OBJC_IVAR_$_PDKLocationGenerator._mode
+_OBJC_IVAR_$_PDKLocationGenerator._accessDeniedBlock
+_OBJC_IVAR_$_PDKLocationGenerator._database
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_PROTOCOL_$_MKMapViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_MKMapViewDelegate
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKLocationGenerator.m
+__38+[PDKLocationGenerator sharedInstance]_block_invoke
++[PDKAFHTTPSessionManager manager]
+-[PDKAFHTTPSessionManager init]
+-[PDKAFHTTPSessionManager initWithBaseURL:]
+-[PDKAFHTTPSessionManager initWithSessionConfiguration:]
+-[PDKAFHTTPSessionManager initWithBaseURL:sessionConfiguration:]
+-[PDKAFHTTPSessionManager setRequestSerializer:]
+-[PDKAFHTTPSessionManager setResponseSerializer:]
+-[PDKAFHTTPSessionManager GET:parameters:success:failure:]
+-[PDKAFHTTPSessionManager GET:parameters:progress:success:failure:]
+-[PDKAFHTTPSessionManager HEAD:parameters:success:failure:]
+___59-[PDKAFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
+-[PDKAFHTTPSessionManager POST:parameters:success:failure:]
+-[PDKAFHTTPSessionManager POST:parameters:progress:success:failure:]
+-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:success:failure:]
+-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]
+___94-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___94-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[PDKAFHTTPSessionManager PUT:parameters:success:failure:]
+-[PDKAFHTTPSessionManager PATCH:parameters:success:failure:]
+-[PDKAFHTTPSessionManager DELETE:parameters:success:failure:]
+-[PDKAFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]
+___119-[PDKAFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+___copy_helper_block_.77
+___destroy_helper_block_.78
+___119-[PDKAFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[PDKAFHTTPSessionManager description]
++[PDKAFHTTPSessionManager supportsSecureCoding]
+-[PDKAFHTTPSessionManager initWithCoder:]
+-[PDKAFHTTPSessionManager encodeWithCoder:]
+-[PDKAFHTTPSessionManager copyWithZone:]
+-[PDKAFHTTPSessionManager baseURL]
+-[PDKAFHTTPSessionManager setBaseURL:]
+-[PDKAFHTTPSessionManager requestSerializer]
+-[PDKAFHTTPSessionManager .cxx_destruct]
+_OBJC_IVAR_$_PDKAFHTTPSessionManager._requestSerializer
+___block_descriptor_tmp.61
+___block_descriptor_tmp.83
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+_OBJC_IVAR_$_PDKAFHTTPSessionManager._baseURL
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFHTTPSessionManager.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFHTTPSessionManager.h
+__119-[PDKAFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke.80
+__119-[PDKAFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:uploadProgress:downloadProgress:success:failure:]_block_invoke
+__94-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.62
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__94-[PDKAFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke
+__59-[PDKAFHTTPSessionManager HEAD:parameters:success:failure:]_block_invoke
+-[PDKLocationGeneratorViewController viewDidLoad]
+-[PDKLocationGeneratorViewController viewDidLayoutSubviews]
+-[PDKLocationGeneratorViewController viewWillAppear:]
+-[PDKLocationGeneratorViewController viewDidAppear:]
+-[PDKLocationGeneratorViewController didReceiveMemoryWarning]
+-[PDKLocationGeneratorViewController tableView:numberOfRowsInSection:]
+-[PDKLocationGeneratorViewController tableView:cellForRowAtIndexPath:]
+-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]
+___72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.219
+___copy_helper_block_.233
+___destroy_helper_block_.234
+___72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.251
+___copy_helper_block_.254
+___destroy_helper_block_.255
+___72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.257
+___72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2
+___copy_helper_block_.265
+___destroy_helper_block_.266
+___copy_helper_block_.271
+___destroy_helper_block_.272
+-[PDKLocationGeneratorViewController webView:decidePolicyForNavigationAction:decisionHandler:]
+-[PDKLocationGeneratorViewController detailsView]
+-[PDKLocationGeneratorViewController setDetailsView:]
+-[PDKLocationGeneratorViewController parametersView]
+-[PDKLocationGeneratorViewController setParametersView:]
+-[PDKLocationGeneratorViewController separator]
+-[PDKLocationGeneratorViewController setSeparator:]
+-[PDKLocationGeneratorViewController .cxx_destruct]
+___block_descriptor_tmp.236
+___block_descriptor_tmp.256
+___block_descriptor_tmp.268
+___block_descriptor_tmp.273
+_OBJC_IVAR_$_PDKLocationGeneratorViewController._detailsView
+_OBJC_IVAR_$_PDKLocationGeneratorViewController._parametersView
+_OBJC_IVAR_$_PDKLocationGeneratorViewController._separator
+l_OBJC_PROTOCOL_$_WKNavigationDelegate
+l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKLocationGeneratorViewController.m
+__72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2
+__72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.257
+__72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.251
+__72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke.219
+__72-[PDKLocationGeneratorViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+-[UIRefreshControl(AFNetworking) af_notificationObserver]
+-[UIRefreshControl(AFNetworking) setRefreshingWithStateOfTask:]
+-[PDKAFRefreshControlNotificationObserver initWithActivityRefreshControl:]
+-[PDKAFRefreshControlNotificationObserver setRefreshingWithStateOfTask:]
+-[PDKAFRefreshControlNotificationObserver af_beginRefreshing]
+___61-[PDKAFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
+-[PDKAFRefreshControlNotificationObserver af_endRefreshing]
+___59-[PDKAFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[PDKAFRefreshControlNotificationObserver dealloc]
+-[PDKAFRefreshControlNotificationObserver refreshControl]
+-[PDKAFRefreshControlNotificationObserver .cxx_destruct]
+_OBJC_IVAR_$_PDKAFRefreshControlNotificationObserver._refreshControl
+___block_descriptor_tmp.31
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIRefreshControl+PDKAFNetworking.m
+__59-[PDKAFRefreshControlNotificationObserver af_endRefreshing]_block_invoke
+__61-[PDKAFRefreshControlNotificationObserver af_beginRefreshing]_block_invoke
++[PDKAFHTTPResponseSerializer serializer]
+-[PDKAFHTTPResponseSerializer init]
+-[PDKAFHTTPResponseSerializer validateResponse:data:error:]
+_AFErrorWithUnderlyingError
+-[PDKAFHTTPResponseSerializer responseObjectForResponse:data:error:]
++[PDKAFHTTPResponseSerializer supportsSecureCoding]
+-[PDKAFHTTPResponseSerializer initWithCoder:]
+-[PDKAFHTTPResponseSerializer encodeWithCoder:]
+-[PDKAFHTTPResponseSerializer copyWithZone:]
+-[PDKAFHTTPResponseSerializer stringEncoding]
+-[PDKAFHTTPResponseSerializer setStringEncoding:]
+-[PDKAFHTTPResponseSerializer acceptableStatusCodes]
+-[PDKAFHTTPResponseSerializer setAcceptableStatusCodes:]
+-[PDKAFHTTPResponseSerializer acceptableContentTypes]
+-[PDKAFHTTPResponseSerializer setAcceptableContentTypes:]
+-[PDKAFHTTPResponseSerializer .cxx_destruct]
++[PDKAFJSONResponseSerializer serializer]
++[PDKAFJSONResponseSerializer serializerWithReadingOptions:]
+-[PDKAFJSONResponseSerializer init]
+-[PDKAFJSONResponseSerializer responseObjectForResponse:data:error:]
+_AFErrorOrUnderlyingErrorHasCodeInDomain
+_AFJSONObjectByRemovingKeysWithNullValues
+-[PDKAFJSONResponseSerializer initWithCoder:]
+-[PDKAFJSONResponseSerializer encodeWithCoder:]
+-[PDKAFJSONResponseSerializer copyWithZone:]
+-[PDKAFJSONResponseSerializer readingOptions]
+-[PDKAFJSONResponseSerializer setReadingOptions:]
+-[PDKAFJSONResponseSerializer removesKeysWithNullValues]
+-[PDKAFJSONResponseSerializer setRemovesKeysWithNullValues:]
++[PDKAFXMLParserResponseSerializer serializer]
+-[PDKAFXMLParserResponseSerializer init]
+-[PDKAFXMLParserResponseSerializer responseObjectForResponse:data:error:]
++[PDKAFPropertyListResponseSerializer serializer]
++[PDKAFPropertyListResponseSerializer serializerWithFormat:readOptions:]
+-[PDKAFPropertyListResponseSerializer init]
+-[PDKAFPropertyListResponseSerializer responseObjectForResponse:data:error:]
+-[PDKAFPropertyListResponseSerializer initWithCoder:]
+-[PDKAFPropertyListResponseSerializer encodeWithCoder:]
+-[PDKAFPropertyListResponseSerializer copyWithZone:]
+-[PDKAFPropertyListResponseSerializer format]
+-[PDKAFPropertyListResponseSerializer setFormat:]
+-[PDKAFPropertyListResponseSerializer readOptions]
+-[PDKAFPropertyListResponseSerializer setReadOptions:]
++[UIImage(PDKAFNetworkingSafeImageLoading) af_safeImageWithData:]
+___65+[UIImage(PDKAFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+-[PDKAFImageResponseSerializer init]
+-[PDKAFImageResponseSerializer responseObjectForResponse:data:error:]
+_PDKAFImageWithDataAtScale
+-[PDKAFImageResponseSerializer initWithCoder:]
+-[PDKAFImageResponseSerializer encodeWithCoder:]
+-[PDKAFImageResponseSerializer copyWithZone:]
+-[PDKAFImageResponseSerializer imageScale]
+-[PDKAFImageResponseSerializer setImageScale:]
+-[PDKAFImageResponseSerializer automaticallyInflatesResponseImage]
+-[PDKAFImageResponseSerializer setAutomaticallyInflatesResponseImage:]
++[PDKAFCompoundResponseSerializer compoundSerializerWithResponseSerializers:]
+-[PDKAFCompoundResponseSerializer responseObjectForResponse:data:error:]
+-[PDKAFCompoundResponseSerializer initWithCoder:]
+-[PDKAFCompoundResponseSerializer encodeWithCoder:]
+-[PDKAFCompoundResponseSerializer copyWithZone:]
+-[PDKAFCompoundResponseSerializer responseSerializers]
+-[PDKAFCompoundResponseSerializer setResponseSerializers:]
+-[PDKAFCompoundResponseSerializer .cxx_destruct]
+_OBJC_IVAR_$_PDKAFHTTPResponseSerializer._stringEncoding
+_OBJC_IVAR_$_PDKAFHTTPResponseSerializer._acceptableStatusCodes
+_OBJC_IVAR_$_PDKAFHTTPResponseSerializer._acceptableContentTypes
+l_OBJC_PROTOCOL_$_PDKAFURLResponseSerialization
+l_OBJC_LABEL_PROTOCOL_$_PDKAFURLResponseSerialization
+_OBJC_IVAR_$_PDKAFJSONResponseSerializer._readingOptions
+_OBJC_IVAR_$_PDKAFJSONResponseSerializer._removesKeysWithNullValues
+_OBJC_IVAR_$_PDKAFPropertyListResponseSerializer._format
+_OBJC_IVAR_$_PDKAFPropertyListResponseSerializer._readOptions
+_imageLock
+_af_safeImageWithData:.onceToken
+_OBJC_IVAR_$_PDKAFImageResponseSerializer._imageScale
+_OBJC_IVAR_$_PDKAFImageResponseSerializer._automaticallyInflatesResponseImage
+_OBJC_IVAR_$_PDKAFCompoundResponseSerializer._responseSerializers
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLResponseSerialization.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLResponseSerialization.h
+PDKAFImageWithDataAtScale
+PDKAFInflatedImageFromResponseWithDataAtScale
+__65+[UIImage(PDKAFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke
+AFJSONObjectByRemovingKeysWithNullValues
+AFErrorOrUnderlyingErrorHasCodeInDomain
+AFErrorWithUnderlyingError
++[PassiveDataKit sharedInstance]
+___32+[PassiveDataKit sharedInstance]_block_invoke
++[PassiveDataKit allocWithZone:]
+-[PassiveDataKit init]
+-[PassiveDataKit addTransmitter:]
+-[PassiveDataKit registerListener:forGenerator:options:]
+-[PassiveDataKit unregisterListener:forGenerator:]
+-[PassiveDataKit activeListeners]
+-[PassiveDataKit receivedData:forGenerator:]
+-[PassiveDataKit receivedData:forCustomGenerator:]
++[PassiveDataKit keyForGenerator:]
+-[PassiveDataKit generatorInstance:]
+-[PassiveDataKit logEvent:properties:]
+-[PassiveDataKit transmit:]
+-[PassiveDataKit transmitWithCompletionHandler:]
+-[PassiveDataKit clearTransmitters]
+-[PassiveDataKit identifierForUser]
+-[PassiveDataKit setIdentifierForUser:]
+-[PassiveDataKit resetIdentifierForUser]
+-[PassiveDataKit userAgent]
+-[PassiveDataKit dataReportController]
+-[PassiveDataKit listeners]
+-[PassiveDataKit setListeners:]
+-[PassiveDataKit transmitters]
+-[PassiveDataKit setTransmitters:]
+-[PassiveDataKit .cxx_destruct]
+_OBJC_IVAR_$_PassiveDataKit._listeners
+_OBJC_IVAR_$_PassiveDataKit._transmitters
+l_OBJC_PROTOCOL_$_PDKDataListener
+l_OBJC_LABEL_PROTOCOL_$_PDKDataListener
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PassiveDataKit.m
+__32+[PassiveDataKit sharedInstance]_block_invoke
+-[PDKAFCachedImage initWithImage:identifier:]
+-[PDKAFCachedImage accessImage]
+-[PDKAFCachedImage description]
+-[PDKAFCachedImage image]
+-[PDKAFCachedImage setImage:]
+-[PDKAFCachedImage identifier]
+-[PDKAFCachedImage setIdentifier:]
+-[PDKAFCachedImage totalBytes]
+-[PDKAFCachedImage setTotalBytes:]
+-[PDKAFCachedImage lastAccessDate]
+-[PDKAFCachedImage setLastAccessDate:]
+-[PDKAFCachedImage currentMemoryUsage]
+-[PDKAFCachedImage setCurrentMemoryUsage:]
+-[PDKAFCachedImage .cxx_destruct]
+-[PDKAFAutoPurgingImageCache init]
+-[PDKAFAutoPurgingImageCache initWithMemoryCapacity:preferredMemoryCapacity:]
+-[PDKAFAutoPurgingImageCache dealloc]
+-[PDKAFAutoPurgingImageCache memoryUsage]
+___41-[PDKAFAutoPurgingImageCache memoryUsage]_block_invoke
+-[PDKAFAutoPurgingImageCache addImage:withIdentifier:]
+___54-[PDKAFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+___copy_helper_block_.102
+___destroy_helper_block_.103
+___54-[PDKAFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+___copy_helper_block_.129
+___destroy_helper_block_.130
+-[PDKAFAutoPurgingImageCache removeImageWithIdentifier:]
+___56-[PDKAFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[PDKAFAutoPurgingImageCache removeAllImages]
+___45-[PDKAFAutoPurgingImageCache removeAllImages]_block_invoke
+___copy_helper_block_.139
+___destroy_helper_block_.140
+-[PDKAFAutoPurgingImageCache imageWithIdentifier:]
+___50-[PDKAFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[PDKAFAutoPurgingImageCache addImage:forRequest:withAdditionalIdentifier:]
+-[PDKAFAutoPurgingImageCache removeImageforRequest:withAdditionalIdentifier:]
+-[PDKAFAutoPurgingImageCache imageforRequest:withAdditionalIdentifier:]
+-[PDKAFAutoPurgingImageCache imageCacheKeyFromURLRequest:withAdditionalIdentifier:]
+-[PDKAFAutoPurgingImageCache memoryCapacity]
+-[PDKAFAutoPurgingImageCache setMemoryCapacity:]
+-[PDKAFAutoPurgingImageCache preferredMemoryUsageAfterPurge]
+-[PDKAFAutoPurgingImageCache setPreferredMemoryUsageAfterPurge:]
+-[PDKAFAutoPurgingImageCache cachedImages]
+-[PDKAFAutoPurgingImageCache setCachedImages:]
+-[PDKAFAutoPurgingImageCache currentMemoryUsage]
+-[PDKAFAutoPurgingImageCache setCurrentMemoryUsage:]
+-[PDKAFAutoPurgingImageCache synchronizationQueue]
+-[PDKAFAutoPurgingImageCache setSynchronizationQueue:]
+-[PDKAFAutoPurgingImageCache .cxx_destruct]
+_OBJC_IVAR_$_PDKAFCachedImage._image
+_OBJC_IVAR_$_PDKAFCachedImage._identifier
+_OBJC_IVAR_$_PDKAFCachedImage._totalBytes
+_OBJC_IVAR_$_PDKAFCachedImage._lastAccessDate
+_OBJC_IVAR_$_PDKAFCachedImage._currentMemoryUsage
+___block_descriptor_tmp.104
+___block_descriptor_tmp.131
+___block_descriptor_tmp.134
+___block_descriptor_tmp.141
+___block_descriptor_tmp.145
+_OBJC_IVAR_$_PDKAFAutoPurgingImageCache._memoryCapacity
+_OBJC_IVAR_$_PDKAFAutoPurgingImageCache._preferredMemoryUsageAfterPurge
+_OBJC_IVAR_$_PDKAFAutoPurgingImageCache._cachedImages
+_OBJC_IVAR_$_PDKAFAutoPurgingImageCache._currentMemoryUsage
+_OBJC_IVAR_$_PDKAFAutoPurgingImageCache._synchronizationQueue
+l_OBJC_PROTOCOL_$_PDKAFImageCache
+l_OBJC_LABEL_PROTOCOL_$_PDKAFImageCache
+l_OBJC_PROTOCOL_$_PDKAFImageRequestCache
+l_OBJC_LABEL_PROTOCOL_$_PDKAFImageRequestCache
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFAutoPurgingImageCache.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFAutoPurgingImageCache.h
+__50-[PDKAFAutoPurgingImageCache imageWithIdentifier:]_block_invoke
+__45-[PDKAFAutoPurgingImageCache removeAllImages]_block_invoke
+__56-[PDKAFAutoPurgingImageCache removeImageWithIdentifier:]_block_invoke
+__54-[PDKAFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke.105
+__54-[PDKAFAutoPurgingImageCache addImage:withIdentifier:]_block_invoke
+__41-[PDKAFAutoPurgingImageCache memoryUsage]_block_invoke
++[PDKAFNetworkActivityIndicatorManager sharedManager]
+___53+[PDKAFNetworkActivityIndicatorManager sharedManager]_block_invoke
+-[PDKAFNetworkActivityIndicatorManager init]
+-[PDKAFNetworkActivityIndicatorManager dealloc]
+-[PDKAFNetworkActivityIndicatorManager setEnabled:]
+-[PDKAFNetworkActivityIndicatorManager setNetworkingActivityActionWithBlock:]
+-[PDKAFNetworkActivityIndicatorManager isNetworkActivityOccurring]
+-[PDKAFNetworkActivityIndicatorManager setNetworkActivityIndicatorVisible:]
+-[PDKAFNetworkActivityIndicatorManager setActivityCount:]
+___57-[PDKAFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+___copy_helper_block_.41
+___destroy_helper_block_.42
+-[PDKAFNetworkActivityIndicatorManager incrementActivityCount]
+___62-[PDKAFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+___copy_helper_block_.46
+___destroy_helper_block_.47
+-[PDKAFNetworkActivityIndicatorManager decrementActivityCount]
+___62-[PDKAFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+___copy_helper_block_.49
+___destroy_helper_block_.50
+-[PDKAFNetworkActivityIndicatorManager networkRequestDidStart:]
+_PDKAFNetworkRequestFromNotification
+-[PDKAFNetworkActivityIndicatorManager networkRequestDidFinish:]
+-[PDKAFNetworkActivityIndicatorManager setCurrentState:]
+-[PDKAFNetworkActivityIndicatorManager updateCurrentStateForNetworkActivityChange]
+-[PDKAFNetworkActivityIndicatorManager startActivationDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager activationDelayTimerFired]
+-[PDKAFNetworkActivityIndicatorManager startCompletionDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager completionDelayTimerFired]
+-[PDKAFNetworkActivityIndicatorManager cancelActivationDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager cancelCompletionDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager isEnabled]
+-[PDKAFNetworkActivityIndicatorManager isNetworkActivityIndicatorVisible]
+-[PDKAFNetworkActivityIndicatorManager activationDelay]
+-[PDKAFNetworkActivityIndicatorManager setActivationDelay:]
+-[PDKAFNetworkActivityIndicatorManager completionDelay]
+-[PDKAFNetworkActivityIndicatorManager setCompletionDelay:]
+-[PDKAFNetworkActivityIndicatorManager activityCount]
+-[PDKAFNetworkActivityIndicatorManager activationDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager setActivationDelayTimer:]
+-[PDKAFNetworkActivityIndicatorManager completionDelayTimer]
+-[PDKAFNetworkActivityIndicatorManager setCompletionDelayTimer:]
+-[PDKAFNetworkActivityIndicatorManager networkActivityActionBlock]
+-[PDKAFNetworkActivityIndicatorManager setNetworkActivityActionBlock:]
+-[PDKAFNetworkActivityIndicatorManager currentState]
+-[PDKAFNetworkActivityIndicatorManager .cxx_destruct]
+_sharedManager._sharedManager
+_sharedManager.oncePredicate
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._activationDelayTimer
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._completionDelayTimer
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._enabled
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._networkActivityIndicatorVisible
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._activityCount
+___block_descriptor_tmp.43
+___block_descriptor_tmp.48
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._currentState
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._activationDelay
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._completionDelay
+_OBJC_IVAR_$_PDKAFNetworkActivityIndicatorManager._networkActivityActionBlock
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFNetworkActivityIndicatorManager.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFNetworkActivityIndicatorManager.h
+PDKAFNetworkRequestFromNotification
+__62-[PDKAFNetworkActivityIndicatorManager decrementActivityCount]_block_invoke
+__62-[PDKAFNetworkActivityIndicatorManager incrementActivityCount]_block_invoke
+__57-[PDKAFNetworkActivityIndicatorManager setActivityCount:]_block_invoke
+__53+[PDKAFNetworkActivityIndicatorManager sharedManager]_block_invoke
++[PDKGooglePlacesGenerator sharedInstance]
+___42+[PDKGooglePlacesGenerator sharedInstance]_block_invoke
++[PDKGooglePlacesGenerator allocWithZone:]
+-[PDKGooglePlacesGenerator init]
+-[PDKGooglePlacesGenerator removeListener:]
+-[PDKGooglePlacesGenerator updateOptions:]
+-[PDKGooglePlacesGenerator addListener:options:]
+-[PDKGooglePlacesGenerator urlForLocation:]
+-[PDKGooglePlacesGenerator urlForFreetextQuery:]
+-[PDKGooglePlacesGenerator urlForPlaceId:]
++[PDKGooglePlacesGenerator logForReview:]
+___41+[PDKGooglePlacesGenerator logForReview:]_block_invoke
+-[PDKGooglePlacesGenerator transmitPlacesForLocation:]
+___54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke
+___54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke_2
+___copy_helper_block_.178
+___destroy_helper_block_.179
+___54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke.183
+___copy_helper_block_.193
+___destroy_helper_block_.194
+-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]
+___59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke
+___59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke_2
+___copy_helper_block_.204
+___destroy_helper_block_.205
+___59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke.208
+___copy_helper_block_.211
+___destroy_helper_block_.212
+-[PDKGooglePlacesGenerator receivedData:forGenerator:]
+-[PDKGooglePlacesGenerator receivedData:forCustomGenerator:]
+-[PDKGooglePlacesGenerator visualizationForSize:]
+-[PDKGooglePlacesGenerator reach]
+-[PDKGooglePlacesGenerator setReach:]
+-[PDKGooglePlacesGenerator listeners]
+-[PDKGooglePlacesGenerator setListeners:]
+-[PDKGooglePlacesGenerator lastOptions]
+-[PDKGooglePlacesGenerator setLastOptions:]
+-[PDKGooglePlacesGenerator .cxx_destruct]
+___block_descriptor_tmp.110
+___block_descriptor_tmp.182
+___block_descriptor_tmp.185
+___block_literal_global.186
+___block_descriptor_tmp.197
+___block_descriptor_tmp.207
+___block_descriptor_tmp.209
+___block_literal_global.210
+___block_descriptor_tmp.214
+_OBJC_IVAR_$_PDKGooglePlacesGenerator._reach
+_OBJC_IVAR_$_PDKGooglePlacesGenerator._listeners
+_OBJC_IVAR_$_PDKGooglePlacesGenerator._lastOptions
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKGooglePlacesGenerator.m
+__59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke.208
+__59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke_2
+__59-[PDKGooglePlacesGenerator transmitPlacesForFreetextQuery:]_block_invoke
+__54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke.183
+__54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke_2
+__54-[PDKGooglePlacesGenerator transmitPlacesForLocation:]_block_invoke
+__41+[PDKGooglePlacesGenerator logForReview:]_block_invoke
+__42+[PDKGooglePlacesGenerator sharedInstance]_block_invoke
++[PDKHttpTransmitter connectionType]
+-[PDKHttpTransmitter initWithOptions:]
+-[PDKHttpTransmitter databasePath]
+-[PDKHttpTransmitter openDatabase]
+-[PDKHttpTransmitter transmit:completionHandler:]
+-[PDKHttpTransmitter uploadRequestForPayload:]
+-[PDKHttpTransmitter payloadSize]
+-[PDKHttpTransmitter transmitReadingsWithStart:completionHandler:]
+___66-[PDKHttpTransmitter transmitReadingsWithStart:completionHandler:]_block_invoke
+-[PDKHttpTransmitter pendingSize]
+-[PDKHttpTransmitter transmittedSize]
+-[PDKHttpTransmitter processIncomingDataPoint:forGenerator:]
+-[PDKHttpTransmitter processIncomingDataPoint:forCustomGenerator:]
+-[PDKHttpTransmitter receivedData:forGenerator:]
+-[PDKHttpTransmitter receivedData:forCustomGenerator:]
+-[PDKHttpTransmitter source]
+-[PDKHttpTransmitter setSource:]
+-[PDKHttpTransmitter transmitterId]
+-[PDKHttpTransmitter setTransmitterId:]
+-[PDKHttpTransmitter uploadUrl]
+-[PDKHttpTransmitter setUploadUrl:]
+-[PDKHttpTransmitter isTransmitting]
+-[PDKHttpTransmitter setIsTransmitting:]
+-[PDKHttpTransmitter requireCharging]
+-[PDKHttpTransmitter setRequireCharging:]
+-[PDKHttpTransmitter requireWiFi]
+-[PDKHttpTransmitter setRequireWiFi:]
+-[PDKHttpTransmitter database]
+-[PDKHttpTransmitter setDatabase:]
+-[PDKHttpTransmitter .cxx_destruct]
+_OBJC_IVAR_$_PDKHttpTransmitter._source
+_OBJC_IVAR_$_PDKHttpTransmitter._transmitterId
+_OBJC_IVAR_$_PDKHttpTransmitter._uploadUrl
+_OBJC_IVAR_$_PDKHttpTransmitter._isTransmitting
+_OBJC_IVAR_$_PDKHttpTransmitter._requireCharging
+_OBJC_IVAR_$_PDKHttpTransmitter._requireWiFi
+_OBJC_IVAR_$_PDKHttpTransmitter._database
+l_OBJC_PROTOCOL_$_PDKTransmitter
+l_OBJC_LABEL_PROTOCOL_$_PDKTransmitter
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKHttpTransmitter.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKHttpTransmitter.h
+__66-[PDKHttpTransmitter transmitReadingsWithStart:completionHandler:]_block_invoke
++[PDKAppleHealthKitGenerator sharedInstance]
+___44+[PDKAppleHealthKitGenerator sharedInstance]_block_invoke
++[PDKAppleHealthKitGenerator allocWithZone:]
+-[PDKAppleHealthKitGenerator init]
+-[PDKAppleHealthKitGenerator listeners]
+-[PDKAppleHealthKitGenerator setListeners:]
+-[PDKAppleHealthKitGenerator lastOptions]
+-[PDKAppleHealthKitGenerator setLastOptions:]
+-[PDKAppleHealthKitGenerator accessDeniedBlock]
+-[PDKAppleHealthKitGenerator setAccessDeniedBlock:]
+-[PDKAppleHealthKitGenerator .cxx_destruct]
+_OBJC_IVAR_$_PDKAppleHealthKitGenerator._listeners
+_OBJC_IVAR_$_PDKAppleHealthKitGenerator._lastOptions
+_OBJC_IVAR_$_PDKAppleHealthKitGenerator._accessDeniedBlock
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKAppleHealthKitGenerator.m
+__44+[PDKAppleHealthKitGenerator sharedInstance]_block_invoke
++[PDKMixpanelEventGenerator sharedInstance]
+___43+[PDKMixpanelEventGenerator sharedInstance]_block_invoke
++[PDKMixpanelEventGenerator allocWithZone:]
+-[PDKMixpanelEventGenerator visualizationForSize:]
+-[PDKMixpanelEventGenerator tableView:cellForRowAtIndexPath:]
+-[PDKMixpanelEventGenerator tableView:numberOfRowsInSection:]
++[PDKMixpanelEventGenerator logForReview:]
+___42+[PDKMixpanelEventGenerator logForReview:]_block_invoke
+___block_descriptor_tmp.64
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKMixpanelEventGenerator.m
+__42+[PDKMixpanelEventGenerator logForReview:]_block_invoke
+__43+[PDKMixpanelEventGenerator sharedInstance]_block_invoke
+-[DTMHeatmap init]
+-[DTMHeatmap coordinate]
+-[DTMHeatmap boundingMapRect]
+-[DTMHeatmap setData:]
+-[DTMHeatmap mapPointsWithHeatInMapRect:atScale:]
+-[DTMHeatmap maxValue]
+-[DTMHeatmap setMaxValue:]
+-[DTMHeatmap pointsWithHeat]
+-[DTMHeatmap setPointsWithHeat:]
+-[DTMHeatmap zoomedOutMax]
+-[DTMHeatmap setZoomedOutMax:]
+-[DTMHeatmap center]
+-[DTMHeatmap setCenter:]
+-[DTMHeatmap boundingRect]
+-[DTMHeatmap setBoundingRect:]
+-[DTMHeatmap colorProvider]
+-[DTMHeatmap setColorProvider:]
+-[DTMHeatmap .cxx_destruct]
+_OBJC_IVAR_$_DTMHeatmap.maxValue
+_OBJC_IVAR_$_DTMHeatmap._pointsWithHeat
+_OBJC_IVAR_$_DTMHeatmap.zoomedOutMax
+_OBJC_IVAR_$_DTMHeatmap.center
+_OBJC_IVAR_$_DTMHeatmap.boundingRect
+_OBJC_IVAR_$_DTMHeatmap._colorProvider
+l_OBJC_PROTOCOL_$_MKOverlay
+l_OBJC_LABEL_PROTOCOL_$_MKOverlay
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMHeatmap.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/DTMHeatmap/DTMHeatmap.h
+-[PDKAFQueryStringPair initWithField:value:]
+-[PDKAFQueryStringPair URLEncodedStringValue]
+-[PDKAFQueryStringPair field]
+-[PDKAFQueryStringPair setField:]
+-[PDKAFQueryStringPair value]
+-[PDKAFQueryStringPair setValue:]
+-[PDKAFQueryStringPair .cxx_destruct]
++[PDKAFHTTPRequestSerializer serializer]
+-[PDKAFHTTPRequestSerializer init]
+___34-[PDKAFHTTPRequestSerializer init]_block_invoke
+-[PDKAFHTTPRequestSerializer dealloc]
+-[PDKAFHTTPRequestSerializer setAllowsCellularAccess:]
+-[PDKAFHTTPRequestSerializer setCachePolicy:]
+-[PDKAFHTTPRequestSerializer setHTTPShouldHandleCookies:]
+-[PDKAFHTTPRequestSerializer setHTTPShouldUsePipelining:]
+-[PDKAFHTTPRequestSerializer setNetworkServiceType:]
+-[PDKAFHTTPRequestSerializer setTimeoutInterval:]
+-[PDKAFHTTPRequestSerializer HTTPRequestHeaders]
+-[PDKAFHTTPRequestSerializer setValue:forHTTPHeaderField:]
+-[PDKAFHTTPRequestSerializer valueForHTTPHeaderField:]
+-[PDKAFHTTPRequestSerializer setAuthorizationHeaderFieldWithUsername:password:]
+-[PDKAFHTTPRequestSerializer clearAuthorizationHeader]
+-[PDKAFHTTPRequestSerializer setQueryStringSerializationWithStyle:]
+-[PDKAFHTTPRequestSerializer setQueryStringSerializationWithBlock:]
+-[PDKAFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]
+-[PDKAFHTTPRequestSerializer multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:]
+-[PDKAFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]
+___108-[PDKAFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+___108-[PDKAFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+___copy_helper_block_.270
+___destroy_helper_block_.271
+___copy_helper_block_.274
+___destroy_helper_block_.275
+-[PDKAFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]
+___79-[PDKAFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
++[PDKAFHTTPRequestSerializer automaticallyNotifiesObserversForKey:]
+-[PDKAFHTTPRequestSerializer observeValueForKeyPath:ofObject:change:context:]
++[PDKAFHTTPRequestSerializer supportsSecureCoding]
+-[PDKAFHTTPRequestSerializer initWithCoder:]
+-[PDKAFHTTPRequestSerializer encodeWithCoder:]
+-[PDKAFHTTPRequestSerializer copyWithZone:]
+-[PDKAFHTTPRequestSerializer stringEncoding]
+-[PDKAFHTTPRequestSerializer setStringEncoding:]
+-[PDKAFHTTPRequestSerializer allowsCellularAccess]
+-[PDKAFHTTPRequestSerializer cachePolicy]
+-[PDKAFHTTPRequestSerializer HTTPShouldHandleCookies]
+-[PDKAFHTTPRequestSerializer HTTPShouldUsePipelining]
+-[PDKAFHTTPRequestSerializer networkServiceType]
+-[PDKAFHTTPRequestSerializer timeoutInterval]
+-[PDKAFHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]
+-[PDKAFHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]
+-[PDKAFHTTPRequestSerializer mutableObservedChangedKeyPaths]
+-[PDKAFHTTPRequestSerializer setMutableObservedChangedKeyPaths:]
+-[PDKAFHTTPRequestSerializer mutableHTTPRequestHeaders]
+-[PDKAFHTTPRequestSerializer setMutableHTTPRequestHeaders:]
+-[PDKAFHTTPRequestSerializer queryStringSerializationStyle]
+-[PDKAFHTTPRequestSerializer setQueryStringSerializationStyle:]
+-[PDKAFHTTPRequestSerializer queryStringSerialization]
+-[PDKAFHTTPRequestSerializer setQueryStringSerialization:]
+-[PDKAFHTTPRequestSerializer .cxx_destruct]
+-[PDKAFStreamingMultipartFormData initWithURLRequest:stringEncoding:]
+-[PDKAFStreamingMultipartFormData appendPartWithFileURL:name:error:]
+-[PDKAFStreamingMultipartFormData appendPartWithFileURL:name:fileName:mimeType:error:]
+-[PDKAFStreamingMultipartFormData appendPartWithInputStream:name:fileName:length:mimeType:]
+-[PDKAFStreamingMultipartFormData appendPartWithFileData:name:fileName:mimeType:]
+-[PDKAFStreamingMultipartFormData appendPartWithFormData:name:]
+-[PDKAFStreamingMultipartFormData appendPartWithHeaders:body:]
+-[PDKAFStreamingMultipartFormData throttleBandwidthWithPacketSize:delay:]
+-[PDKAFStreamingMultipartFormData requestByFinalizingMultipartFormData]
+-[PDKAFStreamingMultipartFormData request]
+-[PDKAFStreamingMultipartFormData setRequest:]
+-[PDKAFStreamingMultipartFormData stringEncoding]
+-[PDKAFStreamingMultipartFormData setStringEncoding:]
+-[PDKAFStreamingMultipartFormData boundary]
+-[PDKAFStreamingMultipartFormData setBoundary:]
+-[PDKAFStreamingMultipartFormData bodyStream]
+-[PDKAFStreamingMultipartFormData setBodyStream:]
+-[PDKAFStreamingMultipartFormData .cxx_destruct]
+-[PDKAFMultipartBodyStream initWithStringEncoding:]
+-[PDKAFMultipartBodyStream setInitialAndFinalBoundaries]
+-[PDKAFMultipartBodyStream appendHTTPBodyPart:]
+-[PDKAFMultipartBodyStream isEmpty]
+-[PDKAFMultipartBodyStream read:maxLength:]
+-[PDKAFMultipartBodyStream getBuffer:length:]
+-[PDKAFMultipartBodyStream hasBytesAvailable]
+-[PDKAFMultipartBodyStream open]
+-[PDKAFMultipartBodyStream close]
+-[PDKAFMultipartBodyStream propertyForKey:]
+-[PDKAFMultipartBodyStream setProperty:forKey:]
+-[PDKAFMultipartBodyStream scheduleInRunLoop:forMode:]
+-[PDKAFMultipartBodyStream removeFromRunLoop:forMode:]
+-[PDKAFMultipartBodyStream contentLength]
+-[PDKAFMultipartBodyStream _scheduleInCFRunLoop:forMode:]
+-[PDKAFMultipartBodyStream _unscheduleFromCFRunLoop:forMode:]
+-[PDKAFMultipartBodyStream _setCFClientFlags:callback:context:]
+-[PDKAFMultipartBodyStream copyWithZone:]
+-[PDKAFMultipartBodyStream delegate]
+-[PDKAFMultipartBodyStream setDelegate:]
+-[PDKAFMultipartBodyStream streamStatus]
+-[PDKAFMultipartBodyStream setStreamStatus:]
+-[PDKAFMultipartBodyStream streamError]
+-[PDKAFMultipartBodyStream setStreamError:]
+-[PDKAFMultipartBodyStream numberOfBytesInPacket]
+-[PDKAFMultipartBodyStream setNumberOfBytesInPacket:]
+-[PDKAFMultipartBodyStream delay]
+-[PDKAFMultipartBodyStream setDelay:]
+-[PDKAFMultipartBodyStream inputStream]
+-[PDKAFMultipartBodyStream setInputStream:]
+-[PDKAFMultipartBodyStream stringEncoding]
+-[PDKAFMultipartBodyStream setStringEncoding:]
+-[PDKAFMultipartBodyStream HTTPBodyParts]
+-[PDKAFMultipartBodyStream setHTTPBodyParts:]
+-[PDKAFMultipartBodyStream HTTPBodyPartEnumerator]
+-[PDKAFMultipartBodyStream setHTTPBodyPartEnumerator:]
+-[PDKAFMultipartBodyStream currentHTTPBodyPart]
+-[PDKAFMultipartBodyStream setCurrentHTTPBodyPart:]
+-[PDKAFMultipartBodyStream outputStream]
+-[PDKAFMultipartBodyStream setOutputStream:]
+-[PDKAFMultipartBodyStream buffer]
+-[PDKAFMultipartBodyStream setBuffer:]
+-[PDKAFMultipartBodyStream .cxx_destruct]
+-[PDKAFHTTPBodyPart init]
+-[PDKAFHTTPBodyPart dealloc]
+-[PDKAFHTTPBodyPart inputStream]
+-[PDKAFHTTPBodyPart stringForHeaders]
+-[PDKAFHTTPBodyPart contentLength]
+-[PDKAFHTTPBodyPart hasBytesAvailable]
+-[PDKAFHTTPBodyPart read:maxLength:]
+-[PDKAFHTTPBodyPart readData:intoBuffer:maxLength:]
+-[PDKAFHTTPBodyPart transitionToNextPhase]
+___42-[PDKAFHTTPBodyPart transitionToNextPhase]_block_invoke
+___copy_helper_block_.714
+___destroy_helper_block_.715
+-[PDKAFHTTPBodyPart copyWithZone:]
+-[PDKAFHTTPBodyPart stringEncoding]
+-[PDKAFHTTPBodyPart setStringEncoding:]
+-[PDKAFHTTPBodyPart headers]
+-[PDKAFHTTPBodyPart setHeaders:]
+-[PDKAFHTTPBodyPart boundary]
+-[PDKAFHTTPBodyPart setBoundary:]
+-[PDKAFHTTPBodyPart body]
+-[PDKAFHTTPBodyPart setBody:]
+-[PDKAFHTTPBodyPart bodyContentLength]
+-[PDKAFHTTPBodyPart setBodyContentLength:]
+-[PDKAFHTTPBodyPart setInputStream:]
+-[PDKAFHTTPBodyPart hasInitialBoundary]
+-[PDKAFHTTPBodyPart setHasInitialBoundary:]
+-[PDKAFHTTPBodyPart hasFinalBoundary]
+-[PDKAFHTTPBodyPart setHasFinalBoundary:]
+-[PDKAFHTTPBodyPart .cxx_destruct]
++[PDKAFJSONRequestSerializer serializer]
++[PDKAFJSONRequestSerializer serializerWithWritingOptions:]
+-[PDKAFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]
+___79-[PDKAFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.748
+___destroy_helper_block_.749
+-[PDKAFJSONRequestSerializer initWithCoder:]
+-[PDKAFJSONRequestSerializer encodeWithCoder:]
+-[PDKAFJSONRequestSerializer copyWithZone:]
+-[PDKAFJSONRequestSerializer writingOptions]
+-[PDKAFJSONRequestSerializer setWritingOptions:]
++[PDKAFPropertyListRequestSerializer serializer]
++[PDKAFPropertyListRequestSerializer serializerWithFormat:writeOptions:]
+-[PDKAFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]
+___87-[PDKAFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+___copy_helper_block_.772
+___destroy_helper_block_.773
+-[PDKAFPropertyListRequestSerializer initWithCoder:]
+-[PDKAFPropertyListRequestSerializer encodeWithCoder:]
+-[PDKAFPropertyListRequestSerializer copyWithZone:]
+-[PDKAFPropertyListRequestSerializer format]
+-[PDKAFPropertyListRequestSerializer setFormat:]
+-[PDKAFPropertyListRequestSerializer writeOptions]
+-[PDKAFPropertyListRequestSerializer setWriteOptions:]
+_PDKAFHTTPRequestSerializerObservedKeyPaths
+___PDKAFHTTPRequestSerializerObservedKeyPaths_block_invoke
+_OBJC_IVAR_$_PDKAFQueryStringPair._field
+_OBJC_IVAR_$_PDKAFQueryStringPair._value
+_PDKAFHTTPRequestSerializerObserverContext
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._allowsCellularAccess
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._cachePolicy
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._HTTPShouldHandleCookies
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._HTTPShouldUsePipelining
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._networkServiceType
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._timeoutInterval
+___block_descriptor_tmp.276
+___block_descriptor_tmp.286
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._stringEncoding
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._HTTPMethodsEncodingParametersInURI
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._mutableObservedChangedKeyPaths
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._mutableHTTPRequestHeaders
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._queryStringSerializationStyle
+_OBJC_IVAR_$_PDKAFHTTPRequestSerializer._queryStringSerialization
+l_OBJC_PROTOCOL_$_PDKAFURLRequestSerialization
+l_OBJC_LABEL_PROTOCOL_$_PDKAFURLRequestSerialization
+_OBJC_IVAR_$_PDKAFStreamingMultipartFormData._request
+_OBJC_IVAR_$_PDKAFStreamingMultipartFormData._stringEncoding
+_OBJC_IVAR_$_PDKAFStreamingMultipartFormData._boundary
+_OBJC_IVAR_$_PDKAFStreamingMultipartFormData._bodyStream
+l_OBJC_PROTOCOL_$_PDKAFMultipartFormData
+l_OBJC_LABEL_PROTOCOL_$_PDKAFMultipartFormData
+_OBJC_IVAR_$_PDKAFMultipartBodyStream.delegate
+_OBJC_IVAR_$_PDKAFMultipartBodyStream.streamStatus
+_OBJC_IVAR_$_PDKAFMultipartBodyStream.streamError
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._numberOfBytesInPacket
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._delay
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._inputStream
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._stringEncoding
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._HTTPBodyParts
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._HTTPBodyPartEnumerator
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._currentHTTPBodyPart
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._outputStream
+_OBJC_IVAR_$_PDKAFMultipartBodyStream._buffer
+l_OBJC_PROTOCOL_$_NSStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._inputStream
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._bodyContentLength
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._phase
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._phaseReadOffset
+___block_descriptor_tmp.716
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._stringEncoding
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._headers
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._boundary
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._body
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._hasInitialBoundary
+_OBJC_IVAR_$_PDKAFHTTPBodyPart._hasFinalBoundary
+___block_descriptor_tmp.750
+_OBJC_IVAR_$_PDKAFJSONRequestSerializer._writingOptions
+___block_descriptor_tmp.774
+_OBJC_IVAR_$_PDKAFPropertyListRequestSerializer._format
+_OBJC_IVAR_$_PDKAFPropertyListRequestSerializer._writeOptions
+_PDKAFHTTPRequestSerializerObservedKeyPaths._PDKAFHTTPRequestSerializerObservedKeyPaths
+_PDKAFHTTPRequestSerializerObservedKeyPaths.onceToken
+___block_descriptor_tmp.794
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLRequestSerialization.m
+__PDKAFHTTPRequestSerializerObservedKeyPaths_block_invoke
+PDKAFHTTPRequestSerializerObservedKeyPaths
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLRequestSerialization.h
+__87-[PDKAFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__79-[PDKAFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__42-[PDKAFHTTPBodyPart transitionToNextPhase]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+AFMultipartFormFinalBoundary
+AFMultipartFormEncapsulationBoundary
+AFMultipartFormInitialBoundary
+-[NSStream setStreamError:]
+-[NSStream streamError]
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h
+-[NSStream setStreamStatus:]
+-[NSStream streamStatus]
+-[NSStream setDelegate:]
+-[NSStream delegate]
+AFContentTypeForPathExtension
+AFCreateMultipartFormBoundary
+__79-[PDKAFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke
+__108-[PDKAFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2
+__108-[PDKAFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke
+PDKAFQueryStringPairsFromDictionary
+__34-[PDKAFHTTPRequestSerializer init]_block_invoke
+PDKAFQueryStringPairsFromKeyAndValue
+PDKAFQueryStringFromParameters
+PDKAFPercentEscapedStringFromString
+-[PDKAFURLSessionManagerTaskDelegate init]
+-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+___copy_helper_block_.56
+___destroy_helper_block_.57
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+___copy_helper_block_.68
+___destroy_helper_block_.69
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+___copy_helper_block_.72
+___destroy_helper_block_.73
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+___copy_helper_block_.76
+___destroy_helper_block_.77
+___59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[PDKAFURLSessionManagerTaskDelegate cleanUpProgressForTask:]
+-[PDKAFURLSessionManagerTaskDelegate observeValueForKeyPath:ofObject:change:context:]
+-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]
+___75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+___75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+___copy_helper_block_.141
+___destroy_helper_block_.142
+___copy_helper_block_.144
+___destroy_helper_block_.145
+___75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.147
+___75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.150
+___75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+___copy_helper_block_.151
+___destroy_helper_block_.152
+___copy_helper_block_.154
+___destroy_helper_block_.155
+___copy_helper_block_.157
+___destroy_helper_block_.158
+-[PDKAFURLSessionManagerTaskDelegate URLSession:dataTask:didReceiveData:]
+-[PDKAFURLSessionManagerTaskDelegate URLSession:downloadTask:didFinishDownloadingToURL:]
+-[PDKAFURLSessionManagerTaskDelegate manager]
+-[PDKAFURLSessionManagerTaskDelegate setManager:]
+-[PDKAFURLSessionManagerTaskDelegate mutableData]
+-[PDKAFURLSessionManagerTaskDelegate setMutableData:]
+-[PDKAFURLSessionManagerTaskDelegate uploadProgress]
+-[PDKAFURLSessionManagerTaskDelegate setUploadProgress:]
+-[PDKAFURLSessionManagerTaskDelegate downloadProgress]
+-[PDKAFURLSessionManagerTaskDelegate setDownloadProgress:]
+-[PDKAFURLSessionManagerTaskDelegate downloadFileURL]
+-[PDKAFURLSessionManagerTaskDelegate setDownloadFileURL:]
+-[PDKAFURLSessionManagerTaskDelegate downloadTaskDidFinishDownloading]
+-[PDKAFURLSessionManagerTaskDelegate setDownloadTaskDidFinishDownloading:]
+-[PDKAFURLSessionManagerTaskDelegate uploadProgressBlock]
+-[PDKAFURLSessionManagerTaskDelegate setUploadProgressBlock:]
+-[PDKAFURLSessionManagerTaskDelegate downloadProgressBlock]
+-[PDKAFURLSessionManagerTaskDelegate setDownloadProgressBlock:]
+-[PDKAFURLSessionManagerTaskDelegate completionHandler]
+-[PDKAFURLSessionManagerTaskDelegate setCompletionHandler:]
+-[PDKAFURLSessionManagerTaskDelegate .cxx_destruct]
++[_PDKAFURLSessionTaskSwizzling load]
++[_PDKAFURLSessionTaskSwizzling swizzleResumeAndSuspendMethodForClass:]
+-[_PDKAFURLSessionTaskSwizzling state]
+-[_PDKAFURLSessionTaskSwizzling af_resume]
+-[_PDKAFURLSessionTaskSwizzling af_suspend]
+-[PDKAFURLSessionManager init]
+-[PDKAFURLSessionManager initWithSessionConfiguration:]
+___55-[PDKAFURLSessionManager initWithSessionConfiguration:]_block_invoke
+___copy_helper_block_.391
+___destroy_helper_block_.392
+-[PDKAFURLSessionManager dealloc]
+-[PDKAFURLSessionManager taskDescriptionForSessionTasks]
+-[PDKAFURLSessionManager taskDidResume:]
+___40-[PDKAFURLSessionManager taskDidResume:]_block_invoke
+___copy_helper_block_.412
+___destroy_helper_block_.413
+-[PDKAFURLSessionManager taskDidSuspend:]
+___41-[PDKAFURLSessionManager taskDidSuspend:]_block_invoke
+___copy_helper_block_.415
+___destroy_helper_block_.416
+-[PDKAFURLSessionManager delegateForTask:]
+-[PDKAFURLSessionManager setDelegate:forTask:]
+-[PDKAFURLSessionManager addDelegateForDataTask:uploadProgress:downloadProgress:completionHandler:]
+-[PDKAFURLSessionManager addDelegateForUploadTask:progress:completionHandler:]
+-[PDKAFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]
+___92-[PDKAFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.439
+___destroy_helper_block_.440
+-[PDKAFURLSessionManager removeDelegateForTask:]
+-[PDKAFURLSessionManager tasksForKeyPath:]
+___42-[PDKAFURLSessionManager tasksForKeyPath:]_block_invoke
+___copy_helper_block_.466
+___destroy_helper_block_.467
+-[PDKAFURLSessionManager tasks]
+-[PDKAFURLSessionManager dataTasks]
+-[PDKAFURLSessionManager uploadTasks]
+-[PDKAFURLSessionManager downloadTasks]
+-[PDKAFURLSessionManager invalidateSessionCancelingTasks:]
+___58-[PDKAFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+___copy_helper_block_.473
+___destroy_helper_block_.474
+-[PDKAFURLSessionManager setResponseSerializer:]
+-[PDKAFURLSessionManager addNotificationObserverForTask:]
+-[PDKAFURLSessionManager removeNotificationObserverForTask:]
+-[PDKAFURLSessionManager dataTaskWithRequest:completionHandler:]
+-[PDKAFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]
+_url_session_manager_create_task_safely
+___96-[PDKAFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+___copy_helper_block_.488
+___destroy_helper_block_.489
+-[PDKAFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]
+___84-[PDKAFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+___copy_helper_block_.493
+___destroy_helper_block_.494
+-[PDKAFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]
+___84-[PDKAFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+___copy_helper_block_.504
+___destroy_helper_block_.505
+-[PDKAFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]
+___83-[PDKAFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+___copy_helper_block_.509
+___destroy_helper_block_.510
+-[PDKAFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]
+___89-[PDKAFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.514
+___destroy_helper_block_.515
+-[PDKAFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]
+___92-[PDKAFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+___copy_helper_block_.519
+___destroy_helper_block_.520
+-[PDKAFURLSessionManager uploadProgressForTask:]
+-[PDKAFURLSessionManager downloadProgressForTask:]
+-[PDKAFURLSessionManager setSessionDidBecomeInvalidBlock:]
+-[PDKAFURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]
+-[PDKAFURLSessionManager setDidFinishEventsForBackgroundURLSessionBlock:]
+-[PDKAFURLSessionManager setTaskNeedNewBodyStreamBlock:]
+-[PDKAFURLSessionManager setTaskWillPerformHTTPRedirectionBlock:]
+-[PDKAFURLSessionManager setTaskDidReceiveAuthenticationChallengeBlock:]
+-[PDKAFURLSessionManager setTaskDidSendBodyDataBlock:]
+-[PDKAFURLSessionManager setTaskDidCompleteBlock:]
+-[PDKAFURLSessionManager setDataTaskDidReceiveResponseBlock:]
+-[PDKAFURLSessionManager setDataTaskDidBecomeDownloadTaskBlock:]
+-[PDKAFURLSessionManager setDataTaskDidReceiveDataBlock:]
+-[PDKAFURLSessionManager setDataTaskWillCacheResponseBlock:]
+-[PDKAFURLSessionManager setDownloadTaskDidFinishDownloadingBlock:]
+-[PDKAFURLSessionManager setDownloadTaskDidWriteDataBlock:]
+-[PDKAFURLSessionManager setDownloadTaskDidResumeBlock:]
+-[PDKAFURLSessionManager description]
+-[PDKAFURLSessionManager respondsToSelector:]
+-[PDKAFURLSessionManager URLSession:didBecomeInvalidWithError:]
+-[PDKAFURLSessionManager URLSession:didReceiveChallenge:completionHandler:]
+-[PDKAFURLSessionManager URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[PDKAFURLSessionManager URLSession:task:didReceiveChallenge:completionHandler:]
+-[PDKAFURLSessionManager URLSession:task:needNewBodyStream:]
+-[PDKAFURLSessionManager URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[PDKAFURLSessionManager URLSession:task:didCompleteWithError:]
+-[PDKAFURLSessionManager URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[PDKAFURLSessionManager URLSession:dataTask:didBecomeDownloadTask:]
+-[PDKAFURLSessionManager URLSession:dataTask:didReceiveData:]
+-[PDKAFURLSessionManager URLSession:dataTask:willCacheResponse:completionHandler:]
+-[PDKAFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]
+___75-[PDKAFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+___copy_helper_block_.613
+___destroy_helper_block_.614
+-[PDKAFURLSessionManager URLSession:downloadTask:didFinishDownloadingToURL:]
+-[PDKAFURLSessionManager URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[PDKAFURLSessionManager URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
++[PDKAFURLSessionManager supportsSecureCoding]
+-[PDKAFURLSessionManager initWithCoder:]
+-[PDKAFURLSessionManager encodeWithCoder:]
+-[PDKAFURLSessionManager copyWithZone:]
+-[PDKAFURLSessionManager session]
+-[PDKAFURLSessionManager setSession:]
+-[PDKAFURLSessionManager operationQueue]
+-[PDKAFURLSessionManager setOperationQueue:]
+-[PDKAFURLSessionManager responseSerializer]
+-[PDKAFURLSessionManager securityPolicy]
+-[PDKAFURLSessionManager setSecurityPolicy:]
+-[PDKAFURLSessionManager reachabilityManager]
+-[PDKAFURLSessionManager setReachabilityManager:]
+-[PDKAFURLSessionManager completionQueue]
+-[PDKAFURLSessionManager setCompletionQueue:]
+-[PDKAFURLSessionManager completionGroup]
+-[PDKAFURLSessionManager setCompletionGroup:]
+-[PDKAFURLSessionManager attemptsToRecreateUploadTasksForBackgroundSessions]
+-[PDKAFURLSessionManager setAttemptsToRecreateUploadTasksForBackgroundSessions:]
+-[PDKAFURLSessionManager sessionConfiguration]
+-[PDKAFURLSessionManager setSessionConfiguration:]
+-[PDKAFURLSessionManager mutableTaskDelegatesKeyedByTaskIdentifier]
+-[PDKAFURLSessionManager setMutableTaskDelegatesKeyedByTaskIdentifier:]
+-[PDKAFURLSessionManager lock]
+-[PDKAFURLSessionManager setLock:]
+-[PDKAFURLSessionManager sessionDidBecomeInvalid]
+-[PDKAFURLSessionManager setSessionDidBecomeInvalid:]
+-[PDKAFURLSessionManager sessionDidReceiveAuthenticationChallenge]
+-[PDKAFURLSessionManager setSessionDidReceiveAuthenticationChallenge:]
+-[PDKAFURLSessionManager didFinishEventsForBackgroundURLSession]
+-[PDKAFURLSessionManager setDidFinishEventsForBackgroundURLSession:]
+-[PDKAFURLSessionManager taskWillPerformHTTPRedirection]
+-[PDKAFURLSessionManager setTaskWillPerformHTTPRedirection:]
+-[PDKAFURLSessionManager taskDidReceiveAuthenticationChallenge]
+-[PDKAFURLSessionManager setTaskDidReceiveAuthenticationChallenge:]
+-[PDKAFURLSessionManager taskNeedNewBodyStream]
+-[PDKAFURLSessionManager setTaskNeedNewBodyStream:]
+-[PDKAFURLSessionManager taskDidSendBodyData]
+-[PDKAFURLSessionManager setTaskDidSendBodyData:]
+-[PDKAFURLSessionManager taskDidComplete]
+-[PDKAFURLSessionManager setTaskDidComplete:]
+-[PDKAFURLSessionManager dataTaskDidReceiveResponse]
+-[PDKAFURLSessionManager setDataTaskDidReceiveResponse:]
+-[PDKAFURLSessionManager dataTaskDidBecomeDownloadTask]
+-[PDKAFURLSessionManager setDataTaskDidBecomeDownloadTask:]
+-[PDKAFURLSessionManager dataTaskDidReceiveData]
+-[PDKAFURLSessionManager setDataTaskDidReceiveData:]
+-[PDKAFURLSessionManager dataTaskWillCacheResponse]
+-[PDKAFURLSessionManager setDataTaskWillCacheResponse:]
+-[PDKAFURLSessionManager downloadTaskDidFinishDownloading]
+-[PDKAFURLSessionManager setDownloadTaskDidFinishDownloading:]
+-[PDKAFURLSessionManager downloadTaskDidWriteData]
+-[PDKAFURLSessionManager setDownloadTaskDidWriteData:]
+-[PDKAFURLSessionManager downloadTaskDidResume]
+-[PDKAFURLSessionManager setDownloadTaskDidResume:]
+-[PDKAFURLSessionManager .cxx_destruct]
+_url_session_manager_completion_group
+___url_session_manager_completion_group_block_invoke
+___url_session_manager_processing_queue_block_invoke
+___url_session_manager_creation_queue_block_invoke
+___block_descriptor_tmp.58
+___block_descriptor_tmp.70
+___block_descriptor_tmp.74
+___block_descriptor_tmp.78
+___block_descriptor_tmp.82
+___block_descriptor_tmp.143
+___block_descriptor_tmp.146
+___block_descriptor_tmp.153
+___block_descriptor_tmp.156
+___block_descriptor_tmp.159
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._manager
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._mutableData
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._uploadProgress
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._downloadProgress
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._downloadFileURL
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._uploadProgressBlock
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._downloadProgressBlock
+_OBJC_IVAR_$_PDKAFURLSessionManagerTaskDelegate._completionHandler
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+___block_descriptor_tmp.394
+___block_descriptor_tmp.414
+___block_descriptor_tmp.417
+___block_descriptor_tmp.442
+___block_descriptor_tmp.468
+___block_descriptor_tmp.475
+_OBJC_IVAR_$_PDKAFURLSessionManager._responseSerializer
+___block_descriptor_tmp.490
+___block_descriptor_tmp.495
+___block_descriptor_tmp.506
+___block_descriptor_tmp.511
+___block_descriptor_tmp.516
+___block_descriptor_tmp.521
+l_OBJC_PROTOCOL_REFERENCE_$_NSCopying
+___block_descriptor_tmp.615
+_OBJC_IVAR_$_PDKAFURLSessionManager._session
+_OBJC_IVAR_$_PDKAFURLSessionManager._operationQueue
+_OBJC_IVAR_$_PDKAFURLSessionManager._securityPolicy
+_OBJC_IVAR_$_PDKAFURLSessionManager._reachabilityManager
+_OBJC_IVAR_$_PDKAFURLSessionManager._completionQueue
+_OBJC_IVAR_$_PDKAFURLSessionManager._completionGroup
+_OBJC_IVAR_$_PDKAFURLSessionManager._attemptsToRecreateUploadTasksForBackgroundSessions
+_OBJC_IVAR_$_PDKAFURLSessionManager._sessionConfiguration
+_OBJC_IVAR_$_PDKAFURLSessionManager._mutableTaskDelegatesKeyedByTaskIdentifier
+_OBJC_IVAR_$_PDKAFURLSessionManager._lock
+_OBJC_IVAR_$_PDKAFURLSessionManager._sessionDidBecomeInvalid
+_OBJC_IVAR_$_PDKAFURLSessionManager._sessionDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_PDKAFURLSessionManager._didFinishEventsForBackgroundURLSession
+_OBJC_IVAR_$_PDKAFURLSessionManager._taskWillPerformHTTPRedirection
+_OBJC_IVAR_$_PDKAFURLSessionManager._taskDidReceiveAuthenticationChallenge
+_OBJC_IVAR_$_PDKAFURLSessionManager._taskNeedNewBodyStream
+_OBJC_IVAR_$_PDKAFURLSessionManager._taskDidSendBodyData
+_OBJC_IVAR_$_PDKAFURLSessionManager._taskDidComplete
+_OBJC_IVAR_$_PDKAFURLSessionManager._dataTaskDidReceiveResponse
+_OBJC_IVAR_$_PDKAFURLSessionManager._dataTaskDidBecomeDownloadTask
+_OBJC_IVAR_$_PDKAFURLSessionManager._dataTaskDidReceiveData
+_OBJC_IVAR_$_PDKAFURLSessionManager._dataTaskWillCacheResponse
+_OBJC_IVAR_$_PDKAFURLSessionManager._downloadTaskDidFinishDownloading
+_OBJC_IVAR_$_PDKAFURLSessionManager._downloadTaskDidWriteData
+_OBJC_IVAR_$_PDKAFURLSessionManager._downloadTaskDidResume
+_url_session_manager_completion_group.af_url_session_manager_completion_group
+_url_session_manager_completion_group.onceToken
+___block_descriptor_tmp.769
+_url_session_manager_processing_queue.af_url_session_manager_processing_queue
+_url_session_manager_processing_queue.onceToken
+___block_descriptor_tmp.770
+___block_literal_global.771
+_url_session_manager_creation_queue.af_url_session_manager_creation_queue
+_url_session_manager_creation_queue.onceToken
+___block_descriptor_tmp.773
+___block_literal_global.774
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLSessionManager.m
+__url_session_manager_creation_queue_block_invoke
+__url_session_manager_processing_queue_block_invoke
+__url_session_manager_completion_group_block_invoke
+url_session_manager_completion_group
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFURLSessionManager.h
+__75-[PDKAFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+__92-[PDKAFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke
+__89-[PDKAFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]_block_invoke
+__83-[PDKAFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]_block_invoke
+__84-[PDKAFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]_block_invoke
+__84-[PDKAFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]_block_invoke
+__96-[PDKAFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]_block_invoke
+url_session_manager_create_task_safely
+url_session_manager_creation_queue
+__58-[PDKAFURLSessionManager invalidateSessionCancelingTasks:]_block_invoke
+__42-[PDKAFURLSessionManager tasksForKeyPath:]_block_invoke
+__92-[PDKAFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke
+__41-[PDKAFURLSessionManager taskDidSuspend:]_block_invoke
+__40-[PDKAFURLSessionManager taskDidResume:]_block_invoke
+__55-[PDKAFURLSessionManager initWithSessionConfiguration:]_block_invoke
+af_swizzleSelector
+af_addMethod
+__75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3
+__75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.150
+__75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.147
+__75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2
+__75-[PDKAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke
+url_session_manager_processing_queue
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.79
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.75
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.71
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.65
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke.53
+__59-[PDKAFURLSessionManagerTaskDelegate setupProgressForTask:]_block_invoke
+-[PDKDataReportViewController viewDidLoad]
+-[PDKDataReportViewController loadVisualization:]
+-[PDKDataReportViewController viewWillAppear:]
+-[PDKDataReportViewController viewDidAppear:]
+-[PDKDataReportViewController viewDidLayoutSubviews]
+-[PDKDataReportViewController didReceiveMemoryWarning]
+-[PDKDataReportViewController tableView:numberOfRowsInSection:]
+-[PDKDataReportViewController tableView:cellForRowAtIndexPath:]
+-[PDKDataReportViewController titleForGenerator:]
+-[PDKDataReportViewController detailsControllerForGenerator:]
+-[PDKDataReportViewController tappedSettings:]
+-[PDKDataReportViewController tableView:didSelectRowAtIndexPath:]
+-[PDKDataReportViewController sourcesTable]
+-[PDKDataReportViewController setSourcesTable:]
+-[PDKDataReportViewController detailsView]
+-[PDKDataReportViewController setDetailsView:]
+-[PDKDataReportViewController separatorView]
+-[PDKDataReportViewController setSeparatorView:]
+-[PDKDataReportViewController initialized]
+-[PDKDataReportViewController setInitialized:]
+-[PDKDataReportViewController tableInited]
+-[PDKDataReportViewController setTableInited:]
+-[PDKDataReportViewController listeners]
+-[PDKDataReportViewController setListeners:]
+-[PDKDataReportViewController .cxx_destruct]
+_OBJC_IVAR_$_PDKDataReportViewController._sourcesTable
+_OBJC_IVAR_$_PDKDataReportViewController._detailsView
+_OBJC_IVAR_$_PDKDataReportViewController._separatorView
+_OBJC_IVAR_$_PDKDataReportViewController._initialized
+_OBJC_IVAR_$_PDKDataReportViewController._tableInited
+_OBJC_IVAR_$_PDKDataReportViewController._listeners
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKDataReportViewController.m
+-[PDKEventsGeneratorViewController viewDidLoad]
+-[PDKEventsGeneratorViewController viewDidLayoutSubviews]
+-[PDKEventsGeneratorViewController viewWillAppear:]
+-[PDKEventsGeneratorViewController didReceiveMemoryWarning]
+-[PDKEventsGeneratorViewController tableView:numberOfRowsInSection:]
+-[PDKEventsGeneratorViewController tableView:cellForRowAtIndexPath:]
+-[PDKEventsGeneratorViewController dataEnabled:]
+-[PDKEventsGeneratorViewController webView:decidePolicyForNavigationAction:decisionHandler:]
+-[PDKEventsGeneratorViewController detailsView]
+-[PDKEventsGeneratorViewController setDetailsView:]
+-[PDKEventsGeneratorViewController parametersView]
+-[PDKEventsGeneratorViewController setParametersView:]
+-[PDKEventsGeneratorViewController separator]
+-[PDKEventsGeneratorViewController setSeparator:]
+-[PDKEventsGeneratorViewController .cxx_destruct]
+_OBJC_IVAR_$_PDKEventsGeneratorViewController._detailsView
+_OBJC_IVAR_$_PDKEventsGeneratorViewController._parametersView
+_OBJC_IVAR_$_PDKEventsGeneratorViewController._separator
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKEventsGeneratorViewController.m
++[PDKAFNetworkReachabilityManager sharedManager]
+___48+[PDKAFNetworkReachabilityManager sharedManager]_block_invoke
++[PDKAFNetworkReachabilityManager managerForDomain:]
++[PDKAFNetworkReachabilityManager managerForAddress:]
++[PDKAFNetworkReachabilityManager manager]
+-[PDKAFNetworkReachabilityManager initWithReachability:]
+-[PDKAFNetworkReachabilityManager init]
+-[PDKAFNetworkReachabilityManager dealloc]
+-[PDKAFNetworkReachabilityManager isReachable]
+-[PDKAFNetworkReachabilityManager isReachableViaWWAN]
+-[PDKAFNetworkReachabilityManager isReachableViaWiFi]
+-[PDKAFNetworkReachabilityManager startMonitoring]
+___50-[PDKAFNetworkReachabilityManager startMonitoring]_block_invoke
+_AFNetworkReachabilityRetainCallback
+_AFNetworkReachabilityReleaseCallback
+_AFNetworkReachabilityCallback
+___50-[PDKAFNetworkReachabilityManager startMonitoring]_block_invoke.50
+_AFPostReachabilityStatusChange
+___copy_helper_block_.51
+___destroy_helper_block_.52
+-[PDKAFNetworkReachabilityManager stopMonitoring]
+-[PDKAFNetworkReachabilityManager localizedNetworkReachabilityStatusString]
+-[PDKAFNetworkReachabilityManager setReachabilityStatusChangeBlock:]
++[PDKAFNetworkReachabilityManager keyPathsForValuesAffectingValueForKey:]
+-[PDKAFNetworkReachabilityManager networkReachabilityStatus]
+-[PDKAFNetworkReachabilityManager setNetworkReachabilityStatus:]
+-[PDKAFNetworkReachabilityManager networkReachability]
+-[PDKAFNetworkReachabilityManager networkReachabilityStatusBlock]
+-[PDKAFNetworkReachabilityManager setNetworkReachabilityStatusBlock:]
+-[PDKAFNetworkReachabilityManager .cxx_destruct]
+___AFPostReachabilityStatusChange_block_invoke
+___copy_helper_block_.119
+___destroy_helper_block_.120
+_sharedManager.onceToken
+_OBJC_IVAR_$_PDKAFNetworkReachabilityManager._networkReachability
+___block_descriptor_tmp.49
+___block_descriptor_tmp.53
+_OBJC_IVAR_$_PDKAFNetworkReachabilityManager._networkReachabilityStatus
+_OBJC_IVAR_$_PDKAFNetworkReachabilityManager._networkReachabilityStatusBlock
+___block_descriptor_tmp.121
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFNetworkReachabilityManager.m
+__AFPostReachabilityStatusChange_block_invoke
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFNetworkReachabilityManager.h
+AFPostReachabilityStatusChange
+PDKAFNetworkReachabilityStatusForFlags
+__50-[PDKAFNetworkReachabilityManager startMonitoring]_block_invoke.50
+AFNetworkReachabilityCallback
+AFNetworkReachabilityReleaseCallback
+AFNetworkReachabilityRetainCallback
+__50-[PDKAFNetworkReachabilityManager startMonitoring]_block_invoke
+__48+[PDKAFNetworkReachabilityManager sharedManager]_block_invoke
+AFStringFromNetworkReachabilityStatus
+-[PDKAFImageDownloaderResponseHandler initWithUUID:success:failure:]
+-[PDKAFImageDownloaderResponseHandler description]
+-[PDKAFImageDownloaderResponseHandler uuid]
+-[PDKAFImageDownloaderResponseHandler setUuid:]
+-[PDKAFImageDownloaderResponseHandler successBlock]
+-[PDKAFImageDownloaderResponseHandler setSuccessBlock:]
+-[PDKAFImageDownloaderResponseHandler failureBlock]
+-[PDKAFImageDownloaderResponseHandler setFailureBlock:]
+-[PDKAFImageDownloaderResponseHandler .cxx_destruct]
+-[PDKAFImageDownloaderMergedTask initWithURLIdentifier:identifier:task:]
+-[PDKAFImageDownloaderMergedTask addResponseHandler:]
+-[PDKAFImageDownloaderMergedTask removeResponseHandler:]
+-[PDKAFImageDownloaderMergedTask URLIdentifier]
+-[PDKAFImageDownloaderMergedTask setURLIdentifier:]
+-[PDKAFImageDownloaderMergedTask identifier]
+-[PDKAFImageDownloaderMergedTask setIdentifier:]
+-[PDKAFImageDownloaderMergedTask task]
+-[PDKAFImageDownloaderMergedTask setTask:]
+-[PDKAFImageDownloaderMergedTask responseHandlers]
+-[PDKAFImageDownloaderMergedTask setResponseHandlers:]
+-[PDKAFImageDownloaderMergedTask .cxx_destruct]
+-[PDKAFImageDownloadReceipt initWithReceiptID:task:]
+-[PDKAFImageDownloadReceipt task]
+-[PDKAFImageDownloadReceipt setTask:]
+-[PDKAFImageDownloadReceipt receiptID]
+-[PDKAFImageDownloadReceipt setReceiptID:]
+-[PDKAFImageDownloadReceipt .cxx_destruct]
++[PDKAFImageDownloader defaultURLCache]
++[PDKAFImageDownloader defaultURLSessionConfiguration]
+-[PDKAFImageDownloader init]
+-[PDKAFImageDownloader initWithSessionManager:downloadPrioritization:maximumActiveDownloads:imageCache:]
++[PDKAFImageDownloader defaultInstance]
+___39+[PDKAFImageDownloader defaultInstance]_block_invoke
+-[PDKAFImageDownloader downloadImageForURLRequest:success:failure:]
+-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+___copy_helper_block_.182
+___destroy_helper_block_.183
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+___copy_helper_block_.199
+___destroy_helper_block_.200
+___81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+___copy_helper_block_.206
+___destroy_helper_block_.207
+___copy_helper_block_.213
+___destroy_helper_block_.214
+___copy_helper_block_.216
+___destroy_helper_block_.217
+___copy_helper_block_.232
+___destroy_helper_block_.233
+-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]
+___58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+___58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+___copy_helper_block_.240
+___destroy_helper_block_.241
+___58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+___copy_helper_block_.255
+___destroy_helper_block_.256
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[PDKAFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]
+___64-[PDKAFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[PDKAFImageDownloader removeMergedTaskWithURLIdentifier:]
+-[PDKAFImageDownloader safelyDecrementActiveTaskCount]
+___54-[PDKAFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[PDKAFImageDownloader safelyStartNextTaskIfNecessary]
+___54-[PDKAFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+-[PDKAFImageDownloader startMergedTask:]
+-[PDKAFImageDownloader enqueueMergedTask:]
+-[PDKAFImageDownloader dequeueMergedTask]
+-[PDKAFImageDownloader isActiveRequestCountBelowMaximumLimit]
+-[PDKAFImageDownloader imageCache]
+-[PDKAFImageDownloader setImageCache:]
+-[PDKAFImageDownloader sessionManager]
+-[PDKAFImageDownloader setSessionManager:]
+-[PDKAFImageDownloader downloadPrioritizaton]
+-[PDKAFImageDownloader setDownloadPrioritizaton:]
+-[PDKAFImageDownloader synchronizationQueue]
+-[PDKAFImageDownloader setSynchronizationQueue:]
+-[PDKAFImageDownloader responseQueue]
+-[PDKAFImageDownloader setResponseQueue:]
+-[PDKAFImageDownloader maximumActiveDownloads]
+-[PDKAFImageDownloader setMaximumActiveDownloads:]
+-[PDKAFImageDownloader activeRequestCount]
+-[PDKAFImageDownloader setActiveRequestCount:]
+-[PDKAFImageDownloader queuedMergedTasks]
+-[PDKAFImageDownloader setQueuedMergedTasks:]
+-[PDKAFImageDownloader mergedTasks]
+-[PDKAFImageDownloader setMergedTasks:]
+-[PDKAFImageDownloader .cxx_destruct]
+_OBJC_IVAR_$_PDKAFImageDownloaderResponseHandler._uuid
+_OBJC_IVAR_$_PDKAFImageDownloaderResponseHandler._successBlock
+_OBJC_IVAR_$_PDKAFImageDownloaderResponseHandler._failureBlock
+_OBJC_IVAR_$_PDKAFImageDownloaderMergedTask._URLIdentifier
+_OBJC_IVAR_$_PDKAFImageDownloaderMergedTask._identifier
+_OBJC_IVAR_$_PDKAFImageDownloaderMergedTask._task
+_OBJC_IVAR_$_PDKAFImageDownloaderMergedTask._responseHandlers
+_OBJC_IVAR_$_PDKAFImageDownloadReceipt._task
+_OBJC_IVAR_$_PDKAFImageDownloadReceipt._receiptID
+_defaultInstance.sharedInstance
+_defaultInstance.onceToken
+___block_descriptor_tmp.166
+___block_descriptor_tmp.184
+___block_descriptor_tmp.201
+___block_descriptor_tmp.208
+___block_descriptor_tmp.215
+___block_descriptor_tmp.219
+___block_descriptor_tmp.234
+___block_descriptor_tmp.243
+___block_descriptor_tmp.257
+___block_descriptor_tmp.271
+___block_descriptor_tmp.278
+___block_descriptor_tmp.285
+_OBJC_IVAR_$_PDKAFImageDownloader._imageCache
+_OBJC_IVAR_$_PDKAFImageDownloader._sessionManager
+_OBJC_IVAR_$_PDKAFImageDownloader._downloadPrioritizaton
+_OBJC_IVAR_$_PDKAFImageDownloader._synchronizationQueue
+_OBJC_IVAR_$_PDKAFImageDownloader._responseQueue
+_OBJC_IVAR_$_PDKAFImageDownloader._maximumActiveDownloads
+_OBJC_IVAR_$_PDKAFImageDownloader._activeRequestCount
+_OBJC_IVAR_$_PDKAFImageDownloader._queuedMergedTasks
+_OBJC_IVAR_$_PDKAFImageDownloader._mergedTasks
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFImageDownloader.m
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/PDKAFImageDownloader.h
+__54-[PDKAFImageDownloader safelyStartNextTaskIfNecessary]_block_invoke
+__54-[PDKAFImageDownloader safelyDecrementActiveTaskCount]_block_invoke
+__64-[PDKAFImageDownloader safelyRemoveMergedTaskWithURLIdentifier:]_block_invoke
+__58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke.254
+__58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke_2
+__58-[PDKAFImageDownloader cancelTaskForImageDownloadReceipt:]_block_invoke
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.205
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_3
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2.190
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.187
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke.181
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke_2
+__81-[PDKAFImageDownloader downloadImageForURLRequest:withReceiptID:success:failure:]_block_invoke
+__39+[PDKAFImageDownloader defaultInstance]_block_invoke
+-[UIActivityIndicatorView(AFNetworking) af_notificationObserver]
+-[UIActivityIndicatorView(AFNetworking) setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver initWithActivityIndicatorView:]
+-[AFActivityIndicatorViewNotificationObserver setAnimatingWithStateOfTask:]
+-[AFActivityIndicatorViewNotificationObserver af_startAnimating]
+___64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]
+___63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+-[AFActivityIndicatorViewNotificationObserver dealloc]
+-[AFActivityIndicatorViewNotificationObserver activityIndicatorView]
+-[AFActivityIndicatorViewNotificationObserver .cxx_destruct]
+_OBJC_IVAR_$_AFActivityIndicatorViewNotificationObserver._activityIndicatorView
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/AFNetworking/UIActivityIndicatorView+PDKAFNetworking.m
+__63-[AFActivityIndicatorViewNotificationObserver af_stopAnimating]_block_invoke
+__64-[AFActivityIndicatorViewNotificationObserver af_startAnimating]_block_invoke
+-[PDKBaseGenerator fullGeneratorName]
+-[PDKBaseGenerator generatorId]
+-[PDKBaseGenerator updateOptions:]
+-[PDKBaseGenerator visualizationForSize:]
+-[PDKBaseGenerator addListener:options:]
+-[PDKBaseGenerator removeListener:]
+l_OBJC_PROTOCOL_$_PDKGenerator
+l_OBJC_LABEL_PROTOCOL_$_PDKGenerator
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKBaseGenerator.m
+-[NSString(RAInflections) slugalize]
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/Third-Party/NSString+RAInflections.m
++[PDKBatteryGenerator sharedInstance]
+___37+[PDKBatteryGenerator sharedInstance]_block_invoke
++[PDKBatteryGenerator allocWithZone:]
+-[PDKBatteryGenerator init]
+-[PDKBatteryGenerator addListener:options:]
+-[PDKBatteryGenerator removeListener:]
+-[PDKBatteryGenerator refresh]
+-[PDKBatteryGenerator batteryDidChange:]
+-[PDKBatteryGenerator generatorId]
+-[PDKBatteryGenerator listeners]
+-[PDKBatteryGenerator setListeners:]
+-[PDKBatteryGenerator lastOptions]
+-[PDKBatteryGenerator setLastOptions:]
+-[PDKBatteryGenerator .cxx_destruct]
+_OBJC_IVAR_$_PDKBatteryGenerator._listeners
+_OBJC_IVAR_$_PDKBatteryGenerator._lastOptions
+/Users/ZkHaider/Documents/iOSProjects/MocoSDK/Carthage/Checkouts/PassiveDataKit-iOS/PassiveDataKit/PDKBatteryGenerator.m
+__37+[PDKBatteryGenerator sharedInstance]_block_invoke
+/Users/ZkHaider/Library/Caches/org.carthage.CarthageKit/DerivedData/9.2_9C40b/PassiveDataKit-iOS/596047dc8a5ab8e28be63e85833a4edf48459083/Build/Intermediates.noindex/ArchiveIntermediates/PassiveDataKit/IntermediateBuildFilesPath/PassiveDataKit.build/Release-iphoneos/PassiveDataKit.build/DerivedSources/PassiveDataKit_vers.c

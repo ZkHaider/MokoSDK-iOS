@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "596047dc8a5ab8e28be63e85833a4edf48459083",
+  "iOS" : [
+    {
+      "name" : "PassiveDataKit",
+      "hash" : "5fa9732d95d1c30b8da8874ef4a90b95c8efaef5f81453beb9ff9c6895b7da98"
+    }
+  ]
+}

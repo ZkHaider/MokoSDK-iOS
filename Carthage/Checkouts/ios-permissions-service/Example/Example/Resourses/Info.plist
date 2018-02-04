@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Permissions for Example</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Permission for Example</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

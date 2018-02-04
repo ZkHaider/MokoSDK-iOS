@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.9.5",
+  "iOS" : [
+    {
+      "name" : "PermissionsService",
+      "hash" : "05f442d36de3d0d66729737488498a1e706ebd0fb8f634a34759156163014295"
+    }
+  ]
+}
